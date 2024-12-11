@@ -12,7 +12,7 @@ import { ScrollService } from '../../shared/services/scroll.service';
   template: `
     <header class="fixed w-full z-50 px-4 sm:px-8 py-4">
       <nav class="max-w-7xl mx-auto flex justify-between items-center bg-black/80 backdrop-blur-md rounded-full px-6 py-4">
-        <a (click)="scrollToTop($event)" class="text-2xl font-light text-orange-500 transition-colors duration-300 hover:text-orange-400 cursor-pointer">
+        <a (click)="scrollToTop($event)" class="text-2xl font-light text-orange-300 transition-colors duration-300 hover:text-orange-400 cursor-pointer">
           Studio Mediate
         </a>
         
