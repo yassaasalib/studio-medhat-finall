@@ -1,0 +1,100 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Photo Gallery",
+    "booking": "Booking"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional photography services tailored to your needs",
+    "learnMore": "Learn More",
+    "startingAt": "Starting at",
+    "duration": "Duration",
+    "backToServices": "Back to Services",
+    "packages": {
+      "title": "Choose Your Package",
+      "subtitle": "Various packages to suit all requirements and budgets",
+      "mostPopular": "Most Popular",
+      "bookNow": "Book Now"
+    },
+    "studioDetails": {
+      "title": "Studio Details",
+      "hours": "Working Hours",
+      "location": "Location",
+      "policies": "Policies",
+      "notes": "Additional Notes"
+    },
+    "categories": {
+      "family": {
+        "title": "Timeless Family Portraits",
+        "description": "Capturing the essence of your family's bond through artistically crafted photographs that tell your unique story",
+        "extendedDescription": "Transform your precious family moments into stunning works of art. Our expert photographers specialize in capturing authentic connections and genuine emotions that tell your unique family story."
+      },
+      "adultBirthday": {
+        "title": "Elegant Birthday Celebrations",
+        "description": "Documenting your special day with a perfect blend of candid moments and beautifully composed photographs",
+        "extendedDescription": "Make your birthday celebration unforgettable with our professional photography services. We specialize in capturing the energy, emotions, and special moments of your celebration."
+      },
+      "childrenBirthday": {
+        "title": "Magical Children's Celebrations",
+        "description": "Creating enchanting photographs that capture the joy, wonder, and excitement of your child's special day",
+        "extendedDescription": "Let us capture the magic and wonder of your child's special day. Our experienced photographers know exactly how to interact with children, ensuring natural smiles and authentic moments."
+      },
+      "maternity": {
+        "title": "Artistic Maternity Sessions",
+        "description": "Celebrating the beauty of motherhood through elegant and timeless maternity portraits",
+        "extendedDescription": "Celebrate the beautiful journey of motherhood with our specialized maternity photography services. We create stunning portraits that capture the grace and beauty of this special time in your life."
+      },
+      "fashion": {
+        "title": "Contemporary Fashion Photography",
+        "description": "Elevating your brand with creative, high-impact fashion photography that makes a lasting impression",
+        "extendedDescription": "Elevate your fashion brand with our professional photography services. Our team combines technical expertise with creative vision to produce stunning fashion imagery that captures attention."
+      }
+    }
+  },
+  "booking": {
+    "title": "Book a Session",
+    "subtitle": "Fill out the form below to request a booking",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "service": "Service Type",
+      "date": "Preferred Date",
+      "message": "Message",
+      "optional": "optional",
+      "submit": "Submit Booking",
+      "submitting": "Submitting...",
+      "success": "Thank you! Your booking request has been submitted successfully.",
+      "error": "An error occurred while submitting your request. Please try again.",
+      "selectService": "Select a service",
+      "placeholders": {
+        "name": "Enter your full name",
+        "email": "your@email.com",
+        "phone": "Your phone number",
+        "date": "Select a date",
+        "message": "Tell us about your project..."
+      }
+    }
+  },
+  "packages": {
+    "mostPopular": "Most Popular",
+    "bookNow": "Book Now",
+    "PREMIUM": {
+      "name": "Premium"
+    },
+    "DELUXE": {
+      "name": "Deluxe"
+    },
+    "CLASSIC": {
+      "name": "Classic"
+    },
+    "ESSENTIAL": {
+      "name": "Essential"
+    },
+    "BASIC": {
+      "name": "Basic"
+    }
+  }
+}
