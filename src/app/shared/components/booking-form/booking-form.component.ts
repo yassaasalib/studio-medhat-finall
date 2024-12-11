@@ -154,7 +154,7 @@ export class BookingFormComponent implements OnInit {
   ) {
     this.bookingForm = this.fb.group({
       customerName: ['', [Validators.required, Validators.minLength(2)]],
-      email: ['', [Validators.required, Validators.email]],
+      email: [''],
       phone: ['', [Validators.required, Validators.pattern('^[0-9]{10}$')]],
       date: ['', [Validators.required]],
       message: [''],
@@ -192,17 +192,18 @@ export class BookingFormComponent implements OnInit {
       try {
         const formData = {
           ...this.bookingForm.value,
-          date: format(this.bookingForm.value.date, 'PPP'),
+          date: format(new Date(this.bookingForm.value.date), 'PPP'),
           status: 'Pending'
         };
 
         await this.bookingService.addBooking(formData);
         this.submitSuccess = true;
+
+        // Clear the form and reset
         this.bookingForm.reset();
-        
-        setTimeout(() => {
-          this.router.navigate(['/admin/dashboard']);
-        }, 2000);
+
+        // Optionally redirect to a confirmation page or admin dashboard
+        setTimeout(() => this.router.navigate(['/']), 2000);
       } catch (error) {
         this.submitError = true;
         console.error('Booking error:', error);

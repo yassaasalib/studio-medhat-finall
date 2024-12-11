@@ -27,26 +27,19 @@ export class BookingService {
 
   async addBooking(formData: BookingFormData): Promise<Booking> {
     const booking: Booking = {
-      id: '',
       ...formData,
       status: 'Pending',
       createdAt: new Date().toISOString()
     };
-
+    
     try {
-      const docId = await this.firebaseService.addDocument(this.COLLECTION_NAME, booking);
-      booking.id = docId;
-      
-      const currentBookings = this.bookingsSubject.value;
-      this.bookingsSubject.next([...currentBookings, booking]);
-      
-      return booking;
+      const result = await this.firebaseService.addPublicDocument(this.COLLECTION_NAME, booking);
+      return result.data;
     } catch (error) {
       console.error('Error adding booking:', error);
       throw error;
     }
   }
-
   async updateBooking(id: string, updates: Partial<Booking>): Promise<void> {
     try {
       await this.firebaseService.updateDocument(this.COLLECTION_NAME, id, updates);

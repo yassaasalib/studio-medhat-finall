@@ -1,7 +1,7 @@
 export type BookingStatus = 'Pending' | 'Confirmed' | 'Cancelled';
 
 export interface Booking {
-  id: string;
+  id?: string;
   customerName: string;
   email: string;
   phone: string;

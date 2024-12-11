@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow public booking submissions with data validation
+    match /bookings/{bookingId} {
+      allow read: if request.auth != null; // Only authenticated users can read
+      allow create: if 
+        // Validate required fields
+        request.resource.data.customerName is string &&
+        request.resource.data.customerName.size() > 0 &&
+        request.resource.data.phone is string &&
+        request.resource.data.date is string &&
+        // Ensure status is 'Pending' for public submissions
+        request.resource.data.status == 'Pending' &&
+        // Mark as public submission
+        request.resource.data.isPublicSubmission == true;
+      
+      // Only allow updates and deletes by authenticated users
+      allow update, delete: if request.auth != null;
+    }
+    
+    // Protect all other collections
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

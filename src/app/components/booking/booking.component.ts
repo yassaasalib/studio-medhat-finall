@@ -179,18 +179,20 @@ export class BookingComponent {
       try {
         const formData = {
           ...this.bookingForm.value,
-          date: format(this.bookingForm.value.date, 'PPP')
+          date: format(new Date(this.bookingForm.value.date), 'PPP'),
+          status: 'Pending',
+          isPublicSubmission: true
         };
 
         await this.bookingService.addBooking(formData);
         this.submitSuccess = true;
         this.bookingForm.reset();
         
-        setTimeout(() => {
-          this.router.navigate(['/admin/dashboard']);
-        }, 2000);
+        // Redirect to confirmation page
+        // setTimeout(() => this.router.navigate(['/booking-confirmation']), 2000);
       } catch (error) {
         this.submitError = true;
+        console.error('Booking error:', error);
       } finally {
         this.isSubmitting = false;
       }

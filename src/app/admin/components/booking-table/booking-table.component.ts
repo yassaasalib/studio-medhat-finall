@@ -58,7 +58,7 @@ import { Booking, BookingStatus } from '../../../shared/types/booking.interface'
             <td class="px-6 py-4 whitespace-nowrap">
               <select
                 [(ngModel)]="booking.status"
-                (change)="updateStatus(booking.id, booking.status)"
+                (change)="updateStatus(booking.id!, booking.status)"
                 class="bg-black/30 border border-gray-600 text-white rounded-lg px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
               >
                 <option value="Pending">Pending</option>
@@ -68,7 +68,7 @@ import { Booking, BookingStatus } from '../../../shared/types/booking.interface'
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
               <button
-                (click)="deleteBooking(booking.id)"
+                (click)="deleteBooking(booking.id!)"
                 class="text-red-500 hover:text-red-400 transition-colors"
               >
                 Delete

@@ -74,21 +74,50 @@ export class FirebaseService {
       throw new Error('Sign out failed');
     }
   }
-
-  async addDocument(collectionName: string, data: any): Promise<string> {
+  async addPublicDocument(collectionName: string, data: any): Promise<{ id: string; data: any }> {
+    try {
+      const collectionRef = collection(this.db, collectionName);
+      // Add security rules to ensure data validation
+      const sanitizedData = {
+        ...data,
+        createdAt: new Date().toISOString(),
+        status: 'Pending', // Force pending status for public submissions
+        isPublicSubmission: true // Flag to identify public submissions
+      };
+      
+      const docRef = await addDoc(collectionRef, sanitizedData);
+      return {
+        id: docRef.id,
+        data: {
+          ...sanitizedData,
+          id: docRef.id
+        }
+      };
+    } catch (error) {
+      console.error('Failed to add document:', error);
+      throw new Error('Failed to add document');
+    }
+  }
+  
+  async addDocument(collectionName: string, data: any): Promise<{ id: string; data: any }> {
     try {
       const collectionRef = collection(this.db, collectionName);
       const docRef = await addDoc(collectionRef, {
         ...data,
         createdAt: new Date().toISOString()
       });
-      return docRef.id;
+      return {
+        id: docRef.id,
+        data: {
+          ...data,
+          id: docRef.id
+        }
+      };
     } catch (error) {
       console.error('Failed to add document:', error);
       throw new Error('Failed to add document');
     }
   }
-
   async getDocuments(collectionName: string): Promise<any[]> {
     try {
       const querySnapshot = await getDocs(collection(this.db, collectionName));
