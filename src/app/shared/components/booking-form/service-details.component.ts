@@ -14,7 +14,7 @@ import { ServicePackage } from '../../types/package.interface';
         {{ getServiceTitle(service) | translate }}
       </div>
       <div *ngIf="package" class="text-sm text-gray-400 mt-1">
-        {{ 'packages.' + package.name.toLowerCase() + '.name' | translate }} - 
+      {{ ('packages.' + package.name.toUpperCase() + '.name') | translate }} - 
         {{ package.price | currency:'EGP':'symbol':'1.0-0' }}
       </div>
     </div>

@@ -20,7 +20,7 @@ import { PhotoService } from '../../types/services.interface';
 
       <!-- Package header -->
       <div class="text-center mb-6">
-        <h3 class="text-xl font-medium text-white mb-2">{{ 'packages.' + package.name.toLowerCase() + '.name' | translate }}</h3>
+        <h3 class="text-xl font-medium text-white mb-2"> {{ ('packages.' + package.name.toUpperCase() + '.name') | translate }}</h3>
         <div class="text-3xl font-light text-orange-500">
           {{ package.price | currency:'EGP':'symbol':'1.0-0' }}
         </div>
@@ -28,7 +28,7 @@ import { PhotoService } from '../../types/services.interface';
 
       <!-- Features list -->
       <ul class="space-y-3 mb-6">
-        <li *ngFor="let feature of package.features" 
+        <li *ngFor="let featureKey of package.featureKeys" 
             class="flex items-start text-gray-300">
           <svg class="w-5 h-5 text-orange-500 mr-2 flex-shrink-0" 
                fill="none" 
@@ -40,7 +40,7 @@ import { PhotoService } from '../../types/services.interface';
                   d="M5 13l4 4L19 7">
             </path>
           </svg>
-          <span>{{ feature }}</span>
+          <span>{{ featureKey | translate}}</span>
         </li>
       </ul>
 
@@ -53,7 +53,7 @@ import { PhotoService } from '../../types/services.interface';
 
       <!-- Booking Form Modal -->
       <div *ngIf="showBookingForm" 
-           class="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-4">
+           class="fixed inset-0 bg-black/90 flex items-center justify-center z-500 p-4">
         <div class="max-w-2xl w-full relative">
           <button 
             (click)="showBookingForm = false"

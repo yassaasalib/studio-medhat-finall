@@ -76,9 +76,84 @@
       }
     }
   },
+
   "packages": {
-    "mostPopular": "الأكثر طلباً",
+    "mostPopular": "الأكثر شعبية",
     "bookNow": "احجز الآن",
+    "features": {
+      "family": {
+        "digitalPhotos30": "٣٠ صورة رقمية محررة احترافياً",
+        "twoHourSession": "جلسة تصوير لمدة ساعتين",
+        "twoOutfitChanges": "تغيير ملابس مرتين",
+        "digitalPhotos25": "٢٥ صورة رقمية محررة احترافياً",
+        "oneAndHalfHourSession": "جلسة تصوير لمدة ساعة ونصف",
+        "oneOutfitChange": "تغيير ملابس مرة واحدة",
+        "digitalPhotos20": "٢٠ صورة رقمية محررة احترافياً",
+        "oneHourSession": "جلسة تصوير لمدة ساعة",
+        "digitalPhotos15": "١٥ صورة رقمية محررة احترافياً",
+        "fortyFiveMinuteSession": "جلسة تصوير لمدة ٤٥ دقيقة",
+        "digitalPhotos10": "١٠ صور رقمية محررة احترافياً",
+        "thirtyMinuteSession": "جلسة تصوير لمدة ٣٠ دقيقة",
+        "printedPhoto": "صورة مطبوعة (٣٠×٤٠ سم)",
+        "onlineGallery": "معرض صور على الإنترنت"
+      },
+      "adultBirthday": {
+        "digitalPhotos200": "٢٠٠ صورة رقمية محررة احترافياً",
+        "eventCoverage4Hours": "تغطية الحدث لمدة ٤ ساعات",
+        "photoBooth": "ركن تصوير مع خلفيات",
+        "printedAlbum": "ألبوم صور مطبوع",
+        "sameDayPreview": "معاينة في نفس اليوم",
+        "digitalPhotos150": "١٥٠ صورة رقمية محررة احترافياً",
+        "eventCoverage3Hours": "تغطية الحدث لمدة ٣ ساعات",
+        "nextDayPreview": "معاينة في اليوم التالي"
+      },
+      "childBirthday": {
+        "digitalPhotos150": "١٥٠ صورة رقمية محررة احترافياً",
+        "eventCoverage3Hours": "تغطية الحدث لمدة ٣ ساعات",
+        "childFriendlyProps": "اكسسوارات وخلفيات مناسبة للأطفال",
+        "smallPrintedAlbum": "ألبوم صور مطبوع صغير",
+        "sameDayPreview": "معاينة في نفس اليوم",
+        "digitalPhotos120": "١٢٠ صورة رقمية محررة احترافياً",
+        "eventCoverage2AndHalfHours": "تغطية الحدث لمدة ساعتين ونصف",
+        "digitalPhotos90": "٩٠ صورة رقمية محررة احترافياً",
+        "eventCoverage2Hours": "تغطية الحدث لمدة ساعتين",
+        "basicProps": "اكسسوارات أساسية",
+        "digitalPhotos60": "٦٠ صورة رقمية محررة احترافياً",
+        "eventCoverage1AndHalfHours": "تغطية الحدث لمدة ساعة ونصف",
+        "digitalPhotos40": "٤٠ صورة رقمية محررة احترافياً",
+        "eventCoverage1Hour": "تغطية الحدث لمدة ساعة"
+      },
+      "maternity": {
+        "digitalPhotos25": "٢٥ صورة رقمية محررة احترافياً",
+        "twoHourSession": "جلسة تصوير لمدة ساعتين",
+        "makeupHair": "تصفيف شعر ومكياج",
+        "maternityDress": "فستان حمل متوفر",
+        "printedAlbum": "ألبوم صور مطبوع",
+        "digitalPhotos20": "٢٠ صورة رقمية محررة احترافياً",
+        "oneAndHalfHourSession": "جلسة تصوير لمدة ساعة ونصف",
+        "digitalPhotos15": "١٥ صورة رقمية محررة احترافياً",
+        "oneHourSession": "جلسة تصوير لمدة ساعة",
+        "digitalPhotos10": "١٠ صور رقمية محررة احترافياً",
+        "fortyFiveMinuteSession": "جلسة تصوير لمدة ٤٥ دقيقة",
+        "digitalPhotos8": "٨ صور رقمية محررة احترافياً",
+        "thirtyMinuteSession": "جلسة تصوير لمدة ٣٠ دقيقة"
+      },
+      "fashion": {
+        "digitalPhotos40": "٤٠ صورة رقمية محررة احترافياً",
+        "fourHourSession": "جلسة تصوير لمدة ٤ ساعات",
+        "professionalStyling": "تنسيق مظهر احترافي",
+        "multipleLocations": "التصوير في مواقع متعددة",
+        "commercialRights": "حقوق الاستخدام التجاري",
+        "digitalPhotos30": "٣٠ صورة رقمية محررة احترافياً",
+        "threeHourSession": "جلسة تصوير لمدة ٣ ساعات",
+        "digitalPhotos25": "٢٥ صورة رقمية محررة احترافياً",
+        "twoHourSession": "جلسة تصوير لمدة ساعتين",
+        "digitalPhotos20": "٢٠ صورة رقمية محررة احترافياً",
+        "oneAndHalfHourSession": "جلسة تصوير لمدة ساعة ونصف",
+        "digitalPhotos15": "١٥ صورة رقمية محررة احترافياً",
+        "oneHourSession": "جلسة تصوير لمدة ساعة"
+      }
+    },
     "PREMIUM": {
       "name": "بريميوم"
     },
@@ -89,7 +164,7 @@
       "name": "كلاسيك"
     },
     "ESSENTIAL": {
-      "name": "إسينشال"
+      "name": "أساسي"
     },
     "BASIC": {
       "name": "بيسك"

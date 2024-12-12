@@ -1,7 +1,7 @@
 export interface ServicePackage {
   name: string;
   price: number;
-  features: string[];
+  featureKeys: string[];  // Instead of direct feature strings
   isPopular?: boolean;
 }
 

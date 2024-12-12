@@ -22,7 +22,7 @@ import { format } from 'date-fns';
   ],
   template: `
     <div class="booking-form bg-neutral-900/50 backdrop-blur-sm rounded-xl border border-white/10 p-6">
-      <h3 class="text-2xl font-light text-white mb-6">{{ 'booking.form.title' | translate }}</h3>
+      <h3 class="text-2xl font-light text-white mb-6">{{ 'booking.title' | translate }}</h3>
       
       <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()" class="space-y-6">
         <!-- Service Details -->
