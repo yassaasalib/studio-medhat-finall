@@ -27,6 +27,13 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
             </div>
           </div>
 
+          <!-- Price Section -->
+          <!-- <div class="p-6"> -->
+            <div class="p-6">
+              <h2 class="text-xl font-semibold text-white mb-2">{{ booking.packagePrice ? booking.packagePrice + ' EGP' : 'No Price provided' }}</h2>
+            </div>
+          <!-- </div> -->
+
           <!-- Card Content -->
           <div class="p-6">
             <!-- Customer Info Section -->
@@ -69,6 +76,11 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
             <!-- Message Section -->
             <div class="mb-6">
               <p class="text-gray-400 text-sm italic">{{ booking.message || 'No message provided' }}</p>
+            </div>
+
+            <!-- PackageName Section -->
+            <div class="mb-6">
+              <p class="text-gray-400 text-sm italic">{{ booking.packageName || 'No package Name provided' }}</p>
             </div>
 
             <!-- Actions Section -->

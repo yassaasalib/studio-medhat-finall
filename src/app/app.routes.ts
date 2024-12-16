@@ -7,15 +7,16 @@ import { AdminDashboardComponent } from './admin/pages/dashboard/dashboard.compo
 import { AuthGuard } from './admin/guards/auth.guard';
 
 export const routes: Routes = [
-  { path: '', component: HeroComponent },
-  { path: 'services', component: ServicesComponent },
-  { path: 'services/:id', component: ServiceDetailsComponent },
-  { path: 'admin/login', component: AdminLoginComponent },
+  { path: '', component: HeroComponent, data: { showHeaderFooter: true } },
+  { path: 'services', component: ServicesComponent, data: { showHeaderFooter: true } },
+  { path: 'services/:id', component: ServiceDetailsComponent, data: { showHeaderFooter: true } },
+  { path: 'admin/login', component: AdminLoginComponent, data: { showHeaderFooter: false } },
   { 
     path: 'admin/dashboard', 
     component: AdminDashboardComponent,
-    canActivate: [AuthGuard] 
+    canActivate: [AuthGuard],
+    data: { showHeaderFooter: false }
   },
-  // Redirect unknown routes to the home page
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
+

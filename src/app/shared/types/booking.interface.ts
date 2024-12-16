@@ -8,6 +8,8 @@ export interface Booking {
   date: string;
   serviceType: string;
   message?: string;
+  packageName?: string;
+  packagePrice?: string;
   status: BookingStatus;
   createdAt: string;
 }
