@@ -58,33 +58,33 @@ import { PhotoService } from '../../types/services.interface';
         {{ 'packages.bookNow' | translate }}
       </button>
 
-      <!-- Full-screen Booking Form Modal -->
-      <div 
-        *ngIf="showBookingForm"
-        class="booking-modal fixed inset-0 w-full h-full bg-black/95 z-50 overflow-y-auto">
-        <div class="min-h-screen w-full flex flex-col">
-          <!-- Modal Header -->
-          <div class="sticky top-0 w-full bg-black/80 backdrop-blur-sm p-4 flex justify-between items-center border-b border-white/10">
-            <h2 class="text-xl text-white font-medium">
-            {{ ('packages.' + package.name.toUpperCase() + '.name') | translate }}
-            </h2>
-            <button
-              (click)="showBookingForm = false"
-              class="text-white hover:text-orange-500 transition-colors p-2">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-              </svg>
-            </button>
-          </div>
-          
-          <!-- Modal Content -->
-          <div class="flex-1 p-4 sm:p-6 md:p-8 flex justify-center">
-            <div class="w-full max-w-4xl">
-              <app-booking-form
-                [selectedService]="service"
-                [selectedPackage]="package">
-              </app-booking-form>
-            </div>
+    </div>
+    <!-- Full-screen Booking Form Modal -->
+    <div 
+      *ngIf="showBookingForm"
+      class="booking-modal fixed inset-0 w-full h-full bg-black/95 z-50 overflow-y-auto">
+      <div class="min-h-screen w-full flex flex-col">
+        <!-- Modal Header -->
+        <div class="sticky top-0 w-full bg-black/80 backdrop-blur-sm p-4 flex justify-between items-center border-b border-white/10">
+          <h2 class="text-xl text-white font-medium">
+          {{ ('packages.' + package.name.toUpperCase() + '.name') | translate }}
+          </h2>
+          <button
+            (click)="showBookingForm = false"
+            class="text-white hover:text-orange-500 transition-colors p-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+        
+        <!-- Modal Content -->
+        <div class="flex-1 p-4 sm:p-6 md:p-8 flex justify-center">
+          <div class="w-full max-w-4xl">
+            <app-booking-form
+              [selectedService]="service"
+              [selectedPackage]="package">
+            </app-booking-form>
           </div>
         </div>
       </div>
