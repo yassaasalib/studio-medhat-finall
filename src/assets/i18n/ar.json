@@ -169,5 +169,11 @@
     "BASIC": {
       "name": "بيسك"
     }
+  },
+  "footer": {
+    "about": "عن الموقع",
+    "description": "الوصف",
+    "quickLinks": "روابط سريعة",
+    "contact": "اتصل بنا"
   }
 }

@@ -176,5 +176,11 @@
     "BASIC": {
       "name": "Basic"
     }
+  },
+  "footer": {
+    "about": "About",
+    "description": "Description",
+    "quickLinks": "QuickLinks",
+    "contact": "Contact"
   }
 }
