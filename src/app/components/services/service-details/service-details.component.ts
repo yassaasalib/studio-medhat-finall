@@ -43,13 +43,13 @@ import { fadeInUp, staggerFadeIn } from './animations';
         
         <div *ngIf="service" class="space-y-16">
           <app-service-header
-            [imageUrl]="service.imageUrl"
-            [title]="'services.categories.' + getServiceKey(service) + '.title' | translate"
-            [description]="'services.categories.' + getServiceKey(service) + '.description' | translate"
-            [basePrice]="service.basePrice"
-            [duration]="service.duration"
-            [extendedDescription]="'services.categories.' + getServiceKey(service) + '.extendedDescription' | translate">
-          </app-service-header>
+          [imageUrl]="service.imageUrl"
+          [title]="('services.categories.' + getServiceKey(service) + '.title' | translate) || service.name"
+          [description]="('services.categories.' + getServiceKey(service) + '.description' | translate) || service.description"
+          [basePrice]="service.basePrice"
+          [duration]="service.duration"
+          [extendedDescription]="('services.categories.' + getServiceKey(service) + '.extendedDescription' | translate) || service.extendedDescription">
+        </app-service-header>
 
           <app-studio-details
             [details]="service.studioDetails">
@@ -65,7 +65,7 @@ import { fadeInUp, staggerFadeIn } from './animations';
           </div>
 
           <div class="space-y-8">
-            <div class="text-center">
+            <div class="text-center mb-10">
               <h2 class="text-3xl font-light mb-4">{{ 'services.packages.title' | translate }}</h2>
               <p class="text-xl text-gray-400">{{ 'services.packages.subtitle' | translate }}</p>
             </div>
@@ -105,6 +105,15 @@ import { fadeInUp, staggerFadeIn } from './animations';
 export class ServiceDetailsComponent implements OnInit {
   service?: PhotoService;
 
+  // Map service IDs to translation keys
+  private serviceKeyMap: { [key: number]: string } = {
+    1: 'family',
+    2: 'adultBirthday',
+    3: 'childrenBirthday',
+    4: 'maternity',
+    5: 'fashion'
+  };
+
   constructor(
     private route: ActivatedRoute,
     private photoService: PhotoServiceService,
@@ -123,17 +132,14 @@ export class ServiceDetailsComponent implements OnInit {
   }
 
   getServiceKey(service: PhotoService): string {
-    const keyMap: { [key: string]: string } = {
-      'Family Photography': 'family',
-      'Adult Birthday Photography': 'adultBirthday',
-      'Children\'s Birthday Photography': 'childrenBirthday',
-      'Maternity Photography': 'maternity',
-      'Fashion Photography': 'fashion'
-    };
-    
-    return keyMap[service.name] || 'family';
+    // Use the ID to get the correct translation key
+    const translationKey = this.serviceKeyMap[service.id];
+    if (!translationKey) {
+      console.warn(`No translation key mapping found for service ID: ${service.id}`);
+    }
+    return translationKey || 'family'; // Default to 'family' if no mapping found
   }
-
+  
   getPackagesForService(serviceId: number) {
     const packageGroup = packagesData.find(group => group.serviceId === serviceId);
     return packageGroup?.packages || [];

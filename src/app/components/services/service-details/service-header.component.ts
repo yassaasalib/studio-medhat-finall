@@ -35,7 +35,7 @@ import { fadeInUp } from './animations';
         </div>
 
         <div class="prose prose-invert max-w-none">
-          <p class="text-lg text-gray-300 leading-relaxed">
+          <p class="text-lg text-gray-300 leading-relaxed mb-10">
             {{extendedDescription}}
           </p>
         </div>

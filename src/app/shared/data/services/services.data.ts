@@ -6,45 +6,45 @@ export const servicesData: PhotoService[] = [
     name: "services.categories.family.title",
     description: "services.categories.family.description",
     extendedDescription: "services.categories.family.extendedDescription",
-    duration: "2-3 hours",
+    duration: "2-3 ساعات",
     basePrice: 500,
     imageUrl: "https://studiomedhat.com/uploads/image/image_1728136340.jpg",
     inclusions: [
-      "Multiple family poses",
-      "Indoor and outdoor shots",
-      "Professional editing",
-      "Digital image gallery",
-      "Print release"
+      "وضعيات عائلية متعددة",
+      "تصوير داخلي وخارجي",
+      "تعديل احترافي",
+      "معرض صور رقمي",
+      "تصريح للطباعة"
     ],
     addOns: [
       {
-        name: "Additional Hour",
+        name: "ساعة إضافية",
         price: 150,
-        description: "Extra shooting time"
+        description: "وقت تصوير إضافي"
       },
       {
-        name: "Premium Photo Album",
+        name: "ألبوم صور فاخر",
         price: 200,
-        description: "High-quality family album"
+        description: "ألبوم عائلي عالي الجودة"
       }
     ],
     studioDetails: {
-      hours: "1:00 PM - 10:00 PM (Closed Wednesdays)",
-      location: "88 El Hegaz Street, Airport, El Nozha District, Cairo",
+      hours: "1:00 مساءً - 10:00 مساءً (مغلق أيام الأربعاء)",
+      location: "88 شارع الحجاز، مطار القاهرة، حي النزهة، القاهرة",
       policies: [
-        "Personal photography not permitted in studio",
-        "Rescheduling available with 48-hour notice",
-        "50% deposit required for booking"
+        "التصوير الشخصي غير مسموح به في الاستوديو",
+        "إعادة الجدولة متاحة بإشعار قبل 48 ساعة",
+        "مطلوب دفع 50% كعربون للحجز"
       ],
       notes: [
-        "Additional prints available for purchase",
-        "Complimentary consultation included",
-        "Indoor and outdoor locations available"
+        "طباعات إضافية متاحة للشراء",
+        "استشارة مجانية مشمولة",
+        "مواقع داخلية وخارجية متاحة"
       ]
     },
     promotions: [
-      "✨ Limited time offer: Complimentary mini album with any package booking ✨",
-      "Book now and receive a 20% discount on your next session"
+      "✨ عرض لفترة محدودة: ألبوم صغير مجاني مع أي حجز للباقة ✨",
+      "احجز الآن واحصل على خصم 20% على جلستك القادمة"
     ]
   },
   {
@@ -52,39 +52,39 @@ export const servicesData: PhotoService[] = [
     name: "services.categories.adultBirthday.title",
     description: "services.categories.adultBirthday.description",
     extendedDescription: "services.categories.adultBirthday.extendedDescription",
-    duration: "3-4 hours",
+    duration: "3-4 ساعات",
     basePrice: 400,
     imageUrl: "https://studiomedhat.com/uploads/image/image_1728048492.jpg",
     inclusions: [
-      "Event coverage",
-      "Candid shots",
-      "Group photos",
-      "Digital delivery",
-      "Basic editing"
+      "تغطية الحدث",
+      "لقطات عفوية",
+      "صور جماعية",
+      "تسليم رقمي",
+      "تعديل أساسي"
     ],
     addOns: [
       {
-        name: "Photo Booth Setup",
+        name: "تجهيز ركن التصوير",
         price: 200,
-        description: "With props and backdrop"
+        description: "مع إكسسوارات وخلفية"
       }
     ],
     studioDetails: {
-      hours: "1:00 PM - 10:00 PM (Closed Wednesdays)",
-      location: "88 El Hegaz Street, Airport, El Nozha District, Cairo",
+      hours: "1:00 مساءً - 10:00 مساءً (مغلق أيام الأربعاء)",
+      location: "88 شارع الحجاز، مطار القاهرة، حي النزهة، القاهرة",
       policies: [
-        "Event location visit required for venues",
-        "Backup equipment provided",
-        "Additional hours available"
+        "زيارة موقع الحدث مطلوبة للأماكن الخارجية",
+        "توفير معدات احتياطية",
+        "ساعات إضافية متاحة"
       ],
       notes: [
-        "Same-day preview available",
-        "Custom backdrop options",
-        "Professional lighting included"
+        "معاينة في نفس اليوم متاحة",
+        "خيارات خلفيات مخصصة",
+        "إضاءة احترافية مشمولة"
       ]
     },
     promotions: [
-      "✨ Book now and receive a complimentary photo booth session ✨"
+      "✨ احجز الآن واحصل على جلسة ركن تصوير مجانية ✨"
     ]
   },
   {
@@ -92,39 +92,39 @@ export const servicesData: PhotoService[] = [
     name: "services.categories.childrenBirthday.title",
     description: "services.categories.childrenBirthday.description",
     extendedDescription: "services.categories.childrenBirthday.extendedDescription",
-    duration: "2-3 hours",
+    duration: "2-3 ساعات",
     basePrice: 350,
     imageUrl: "https://studiomedhat.com/uploads/image/image_1727981754.jpg",
     inclusions: [
-      "Party coverage",
-      "Candid moments",
-      "Group photos",
-      "Digital gallery",
-      "Basic editing"
+      "تغطية الحفلة",
+      "لحظات عفوية",
+      "صور جماعية",
+      "معرض رقمي",
+      "تعديل أساسي"
     ],
     addOns: [
       {
-        name: "Theme-based Props",
+        name: "إكسسوارات حسب الثيم",
         price: 100,
-        description: "Custom party props"
+        description: "إكسسوارات حفلة مخصصة"
       }
     ],
     studioDetails: {
-      hours: "1:00 PM - 10:00 PM (Closed Wednesdays)",
-      location: "88 El Hegaz Street, Airport, El Nozha District, Cairo",
+      hours: "1:00 مساءً - 10:00 مساءً (مغلق أيام الأربعاء)",
+      location: "88 شارع الحجاز، مطار القاهرة، حي النزهة، القاهرة",
       policies: [
-        "Child-friendly environment",
-        "Parents must be present",
-        "Safe equipment handling"
+        "بيئة مناسبة للأطفال",
+        "يجب تواجد الوالدين",
+        "تعامل آمن مع المعدات"
       ],
       notes: [
-        "Themed backdrops available",
-        "Child-friendly photographer",
-        "Quick turnaround time"
+        "خلفيات حسب الثيم متاحة",
+        "مصور متخصص مع الأطفال",
+        "سرعة في تسليم الصور"
       ]
     },
     promotions: [
-      "✨ Free themed props with any package booking ✨"
+      "✨ إكسسوارات مجانية حسب الثيم مع أي حجز للباقة ✨"
     ]
   },
   {
@@ -132,39 +132,39 @@ export const servicesData: PhotoService[] = [
     name: "services.categories.maternity.title",
     description: "services.categories.maternity.description",
     extendedDescription: "services.categories.maternity.extendedDescription",
-    duration: "1-2 hours",
+    duration: "1-2 ساعات",
     basePrice: 450,
     imageUrl: "https://studiomedhat.com/uploads/image/image_1727979335.jpg",
     inclusions: [
-      "Multiple poses",
-      "Outfit changes",
-      "Professional editing",
-      "Digital delivery",
-      "Print release"
+      "وضعيات متعددة",
+      "تغيير الملابس",
+      "تعديل احترافي",
+      "تسليم رقمي",
+      "تصريح للطباعة"
     ],
     addOns: [
       {
-        name: "Hair and Makeup",
+        name: "مكياج وتصفيف شعر",
         price: 150,
-        description: "Professional styling"
+        description: "تجهيز احترافي"
       }
     ],
     studioDetails: {
-      hours: "1:00 PM - 10:00 PM (Closed Wednesdays)",
-      location: "88 El Hegaz Street, Airport, El Nozha District, Cairo",
+      hours: "1:00 مساءً - 10:00 مساءً (مغلق أيام الأربعاء)",
+      location: "88 شارع الحجاز، مطار القاهرة، حي النزهة، القاهرة",
       policies: [
-        "Maternity gowns available",
-        "Partner/family welcome",
-        "Comfort-focused session"
+        "فساتين حمل متاحة",
+        "الشريك/العائلة مرحب بهم",
+        "جلسة تركز على الراحة"
       ],
       notes: [
-        "Best between 28-34 weeks",
-        "Styling consultation included",
-        "Indoor and outdoor options"
+        "أفضل بين الأسبوع 28-34",
+        "استشارة تنسيق مشمولة",
+        "خيارات داخلية وخارجية"
       ]
     },
     promotions: [
-      "✨ Complimentary mini album with premium package booking ✨"
+      "✨ ألبوم صغير مجاني مع حجز الباقة المميزة ✨"
     ]
   },
   {
@@ -172,39 +172,39 @@ export const servicesData: PhotoService[] = [
     name: "services.categories.fashion.title",
     description: "services.categories.fashion.description",
     extendedDescription: "services.categories.fashion.extendedDescription",
-    duration: "3-4 hours",
+    duration: "3-4 ساعات",
     basePrice: 800,
     imageUrl: "https://studiomedhat.com/uploads/image/image_1728143380.jpg",
     inclusions: [
-      "Studio setup",
-      "Multiple looks",
-      "Professional editing",
-      "Commercial rights",
-      "Digital delivery"
+      "تجهيز الاستوديو",
+      "إطلالات متعددة",
+      "تعديل احترافي",
+      "حقوق تجارية",
+      "تسليم رقمي"
     ],
     addOns: [
       {
-        name: "Stylist Services",
+        name: "خدمات تنسيق الملابس",
         price: 300,
-        description: "Professional styling"
+        description: "تنسيق احترافي"
       }
     ],
     studioDetails: {
-      hours: "1:00 PM - 10:00 PM (Closed Wednesdays)",
-      location: "88 El Hegaz Street, Airport, El Nozha District, Cairo",
+      hours: "1:00 مساءً - 10:00 مساءً (مغلق أيام الأربعاء)",
+      location: "88 شارع الحجاز، مطار القاهرة، حي النزهة، القاهرة",
       policies: [
-        "Professional makeup required",
-        "Model release needed",
-        "Commercial licensing available"
+        "مكياج احترافي مطلوب",
+        "مطلوب تصريح العارض/ة",
+        "ترخيص تجاري متاح"
       ],
       notes: [
-        "High-end equipment used",
-        "Multiple backdrop options",
-        "Professional lighting setup"
+        "استخدام معدات عالية الجودة",
+        "خيارات خلفيات متعددة",
+        "إعداد إضاءة احترافي"
       ]
     },
     promotions: [
-      "✨ 20% off for first-time clients ✨"
+      "✨ خصم 20% للعملاء الجدد ✨"
     ]
   }
 ];
