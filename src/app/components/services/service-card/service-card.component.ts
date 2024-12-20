@@ -37,7 +37,7 @@ import { PhotoService } from '../../../shared/types/services.interface';
           <div class="flex justify-between items-center text-gray-300">
             <span class="text-xs md:text-sm">{{ 'services.duration' | translate }}: {{service.duration}}</span>
             <span class="text-lg md:text-xl text-orange-500">
-              {{ 'services.startingAt' | translate }} {{service.basePrice | currency}}
+              {{ 'services.startingAt' | translate }} {{service.basePrice}}
             </span>
           </div>
           

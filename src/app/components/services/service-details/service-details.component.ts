@@ -111,7 +111,11 @@ export class ServiceDetailsComponent implements OnInit {
     2: 'adultBirthday',
     3: 'childrenBirthday',
     4: 'maternity',
-    5: 'fashion'
+    5: 'fashion',
+    6: 'engagement',
+    7: 'marriage',
+    8: 'graduation',
+    9: 'printing',
   };
 
   constructor(

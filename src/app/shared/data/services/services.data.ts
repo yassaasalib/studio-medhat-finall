@@ -8,7 +8,7 @@ export const servicesData: PhotoService[] = [
     extendedDescription: "services.categories.family.extendedDescription",
     duration: "2-3 ساعات",
     basePrice: 500,
-    imageUrl: "https://studiomedhat.com/uploads/image/image_1728136340.jpg",
+    imageUrl: "../../../../assets/services/Family.jpg",
     inclusions: [
       "وضعيات عائلية متعددة",
       "تصوير داخلي وخارجي",
@@ -54,7 +54,7 @@ export const servicesData: PhotoService[] = [
     extendedDescription: "services.categories.adultBirthday.extendedDescription",
     duration: "3-4 ساعات",
     basePrice: 400,
-    imageUrl: "https://studiomedhat.com/uploads/image/image_1728048492.jpg",
+    imageUrl: "../../../../assets/services/adultBirthday.jpg",
     inclusions: [
       "تغطية الحدث",
       "لقطات عفوية",
@@ -94,7 +94,7 @@ export const servicesData: PhotoService[] = [
     extendedDescription: "services.categories.childrenBirthday.extendedDescription",
     duration: "2-3 ساعات",
     basePrice: 350,
-    imageUrl: "https://studiomedhat.com/uploads/image/image_1727981754.jpg",
+    imageUrl: "../../../../assets/services/childrenBirthday.jpg",
     inclusions: [
       "تغطية الحفلة",
       "لحظات عفوية",
@@ -134,7 +134,7 @@ export const servicesData: PhotoService[] = [
     extendedDescription: "services.categories.maternity.extendedDescription",
     duration: "1-2 ساعات",
     basePrice: 450,
-    imageUrl: "https://studiomedhat.com/uploads/image/image_1727979335.jpg",
+    imageUrl: "../../../../assets/services/maternity.jpg",
     inclusions: [
       "وضعيات متعددة",
       "تغيير الملابس",
@@ -174,7 +174,7 @@ export const servicesData: PhotoService[] = [
     extendedDescription: "services.categories.fashion.extendedDescription",
     duration: "3-4 ساعات",
     basePrice: 800,
-    imageUrl: "https://studiomedhat.com/uploads/image/image_1728143380.jpg",
+    imageUrl: "../../../../assets/services/fashion.jpg",
     inclusions: [
       "تجهيز الاستوديو",
       "إطلالات متعددة",
@@ -205,6 +205,165 @@ export const servicesData: PhotoService[] = [
     },
     promotions: [
       "✨ خصم 20% للعملاء الجدد ✨"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "services.categories.engagement.title",
+    "description": "services.categories.engagement.description",
+    "extendedDescription": "services.categories.engagement.extendedDescription",
+    "duration": "6-8 ساعات",
+    "basePrice": 5000,
+    "imageUrl": "../../../../assets/services/engagement.jpg",
+    "inclusions": [
+      "تغطية اليوم بالكامل",
+      "تسليم رقمي",
+      "تعديل احترافي",
+      "ألبوم مخصص",
+      "حقوق تجارية"
+    ],
+    "addOns": [
+      {
+        "name": "إضافة فيديو تصوير",
+        "price": 2000,
+        "description": "فيديو احترافي كامل"
+      }
+    ],
+    "studioDetails": {
+      "hours": "10:00 صباحًا - 10:00 مساءً (مغلق أيام الثلاثاء)",
+      "location": "25 شارع الجامعة، حي الدقي، الجيزة",
+      "policies": [
+        "مطلوب تصريح من المكان",
+        "مكياج احترافي اختياري",
+        "ترخيص تجاري متاح"
+      ],
+      "notes": [
+        "استخدام معدات تصوير حديثة",
+        "إعداد إضاءة كامل",
+        "خيارات مواقع متعددة"
+      ]
+    },
+    "promotions": [
+      "✨ خصم 10% للحجوزات المبكرة ✨"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "services.categories.marriage.title",
+    "description": "services.categories.marriage.description",
+    "extendedDescription": "services.categories.marriage.extendedDescription",
+    "duration": "6-8 ساعات",
+    "basePrice": 5000,
+    "imageUrl": "../../../../assets/services/marriage.jpg",
+    "inclusions": [
+      "تغطية اليوم بالكامل",
+      "تسليم رقمي",
+      "تعديل احترافي",
+      "ألبوم مخصص",
+      "حقوق تجارية"
+    ],
+    "addOns": [
+      {
+        "name": "إضافة فيديو تصوير",
+        "price": 2000,
+        "description": "فيديو احترافي كامل"
+      }
+    ],
+    "studioDetails": {
+      "hours": "10:00 صباحًا - 10:00 مساءً (مغلق أيام الثلاثاء)",
+      "location": "25 شارع الجامعة، حي الدقي، الجيزة",
+      "policies": [
+        "مطلوب تصريح من المكان",
+        "مكياج احترافي اختياري",
+        "ترخيص تجاري متاح"
+      ],
+      "notes": [
+        "استخدام معدات تصوير حديثة",
+        "إعداد إضاءة كامل",
+        "خيارات مواقع متعددة"
+      ]
+    },
+    "promotions": [
+      "✨ خصم 10% للحجوزات المبكرة ✨"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "services.categories.graduation.title",
+    "description": "services.categories.graduation.description",
+    "extendedDescription": "services.categories.graduation.extendedDescription",
+    "duration": "2-4 ساعات",
+    "basePrice": 2000,
+    "imageUrl": "../../../../assets/services/graduation.jpg",
+    "inclusions": [
+      "جلسة تصوير في الموقع",
+      "تسليم رقمي",
+      "تعديل احترافي",
+      "إطلالات متعددة",
+      "ألبوم تذكاري"
+    ],
+    "addOns": [
+      {
+        "name": "صور إضافية",
+        "price": 500,
+        "description": "10 صور إضافية معدلة"
+      }
+    ],
+    "studioDetails": {
+      "hours": "9:00 صباحًا - 8:00 مساءً (مغلق أيام الأحد)",
+      "location": "50 شارع التحرير، حي المعادي، القاهرة",
+      "policies": [
+        "حجز مسبق مطلوب",
+        "الالتزام بالمواعيد ضروري",
+        "ترخيص تجاري غير مطلوب"
+      ],
+      "notes": [
+        "خيارات خلفيات تخرج متعددة",
+        "إعداد إضاءة كامل",
+        "معدات تصوير عالية الجودة"
+      ]
+    },
+    "promotions": [
+      "✨ خصم 15% للمجموعات ✨"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "services.categories.printing.title",
+    "description": "services.categories.printing.description",
+    "extendedDescription": "services.categories.printing.extendedDescription",
+    "duration": "1-2 أيام عمل",
+    "basePrice": 800,
+    "imageUrl": "../../../../assets/services/printing.png",
+    "inclusions": [
+      "طباعة عالية الجودة",
+      "اختيار أحجام مختلفة",
+      "خيارات تغليف",
+      "توصيل متاح"
+    ],
+    "addOns": [
+      {
+        "name": "إطارات خشبية",
+        "price": 150,
+        "description": "إطارات خشبية مخصصة"
+      }
+    ],
+    "studioDetails": {
+      "hours": "10:00 صباحًا - 6:00 مساءً (مغلق أيام الجمعة)",
+      "location": "33 شارع الملك فيصل، حي الهرم، الجيزة",
+      "policies": [
+        "يجب توفير الصور بدقة عالية",
+        "إلغاء الحجز خلال 24 ساعة",
+        "تسليم يدوي متاح"
+      ],
+      "notes": [
+        "خيارات تغليف فاخرة",
+        "ورق طباعة عالي الجودة",
+        "تصاميم ألبومات مخصصة"
+      ]
+    },
+    "promotions": [
+      "✨ طباعة 10 صور مجانًا عند طلب أكثر من 50 صورة ✨"
     ]
   }
 ];

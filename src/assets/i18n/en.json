@@ -50,6 +50,26 @@
         "title": "Contemporary Fashion Photography",
         "description": "Elevating your brand with creative, high-impact fashion photography that makes a lasting impression",
         "extendedDescription": "Elevate your fashion brand with our professional photography services. Our team combines technical expertise with creative vision to produce stunning fashion imagery that captures attention."
+      },
+      "engagement": {
+        "title": "Engagement Photography",
+        "description": "Celebrate your love story with captivating engagement photos that highlight your special bond.",
+        "extendedDescription": "Create timeless memories with beautifully captured moments from your engagement. Our photographers focus on showcasing your love and joy in every frame."
+      },
+      "marriage": {
+        "title": "Marriage Photography",
+        "description": "Capture the magical moments of your marriage ceremony with stunning photography that preserves every detail.",
+        "extendedDescription": "From the heartfelt vows to the joyful celebrations, our photographers are dedicated to documenting every precious moment of your marriage day."
+      },
+      "graduation": {
+        "title": "Graduation Photography",
+        "description": "Celebrate your achievements with vibrant graduation photos that mark your milestone moment.",
+        "extendedDescription": "Our photographers specialize in creating memorable graduation portraits that highlight your success and excitement for the future."
+      },
+      "printing": {
+        "title": "Printing Services",
+        "description": "Bring your favorite photos to life with our high-quality printing services, perfect for any occasion.",
+        "extendedDescription": "Whether you need prints for albums, frames, or gifts, our professional printing ensures your photos look their absolute best."
       }
     }
   },
@@ -159,6 +179,56 @@
         "oneAndHalfHourSession": "1.5-hour photo session",
         "digitalPhotos15": "15 professionally edited digital photos",
         "oneHourSession": "1-hour photo session"
+      },
+      "engagement": {
+        "digitalPhotos50": "50 professionally edited digital photos",
+        "fiveHourSession": "5-hour photo session",
+        "customizedAlbum": "A customized photo album",
+        "digitalPhotos40": "40 professionally edited digital photos",
+        "fourHourSession": "4-hour photo session",
+        "digitalPhotos30": "30 professionally edited digital photos",
+        "threeHourSession": "3-hour photo session",
+        "digitalPhotos20": "20 professionally edited digital photos",
+        "twoHourSession": "2-hour photo session",
+        "digitalPhotos15": "15 professionally edited digital photos",
+        "oneAndHalfHourSession": "1.5-hour photo session"
+      },
+      "marriage": {
+        "digitalPhotos80": "80 professionally edited digital photos",
+        "fullDayCoverage": "Full-day photography coverage",
+        "customizedAlbum": "A customized wedding album",
+        "digitalPhotos60": "60 professionally edited digital photos",
+        "sixHourCoverage": "6-hour photography coverage",
+        "digitalPhotos40": "40 professionally edited digital photos",
+        "fourHourCoverage": "4-hour photography coverage",
+        "digitalPhotos30": "30 professionally edited digital photos",
+        "threeHourCoverage": "3-hour photography coverage",
+        "digitalPhotos20": "20 professionally edited digital photos",
+        "twoHourCoverage": "2-hour photography coverage"
+      },
+      "graduation": {
+        "digitalPhotos50": "50 professionally edited digital photos",
+        "fourHourSession": "4-hour photo session",
+        "customizedAlbum": "A customized photo album",
+        "digitalPhotos40": "40 professionally edited digital photos",
+        "threeHourSession": "3-hour photo session",
+        "digitalPhotos30": "30 professionally edited digital photos",
+        "twoHourSession": "2-hour photo session",
+        "digitalPhotos20": "20 professionally edited digital photos",
+        "oneAndHalfHourSession": "1.5-hour photo session",
+        "digitalPhotos15": "15 professionally edited digital photos",
+        "oneHourSession": "1-hour photo session"
+      },
+      "printing": {
+        "albumLarge": "Large-sized photo album",
+        "highQualityPrints50": "50 high-quality photo prints",
+        "deliveryIncluded": "Delivery service included",
+        "albumMedium": "Medium-sized photo album",
+        "highQualityPrints30": "30 high-quality photo prints",
+        "albumSmall": "Small-sized photo album",
+        "highQualityPrints20": "20 high-quality photo prints",
+        "highQualityPrints15": "15 high-quality photo prints",
+        "highQualityPrints10": "10 high-quality photo prints"
       }
     },
     "PREMIUM": {
