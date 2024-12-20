@@ -33,14 +33,8 @@ import { CommonModule } from '@angular/common';
     }
 
     @media (min-width: 768px) {
-      .grid-md-3 {
+      .grid-md-2 {
         grid-template-columns: repeat(3, 1fr);
-      }
-    }
-
-    @media (min-width: 1024px) {
-      .grid-lg-4 {
-        grid-template-columns: repeat(4, 1fr);
       }
     }
   `]

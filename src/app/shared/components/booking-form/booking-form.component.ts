@@ -9,6 +9,7 @@ import { PhotoService } from '../../types/services.interface';
 import { DateSelectorComponent } from '../date-selector/date-selector.component';
 import { ServiceDetailsComponent } from './service-details.component';
 import { format } from 'date-fns';
+import { PhotoServiceService } from '../../services/photo.service';
 
 @Component({
   selector: 'app-booking-form',
@@ -49,22 +50,21 @@ import { format } from 'date-fns';
           </div>
         </div>
 
-        <!-- Email Field -->
+        <!-- Service Field -->
         <div>
-          <label for="email" class="block text-sm font-medium text-gray-200">
-            {{ 'booking.form.email' | translate }}
+          <label for="service" class="block text-sm font-medium text-gray-200">
+            {{ 'booking.form.service' | translate }}
           </label>
-          <input
-            type="email"
-            id="email"
-            formControlName="email"
+          <select
+            id="service"
+            formControlName="serviceType"
             class="mt-1 block w-full rounded-lg bg-black/30 border border-gray-600 text-white px-4 py-3 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-            [placeholder]="'booking.form.placeholders.email' | translate"
-          />
-          <div *ngIf="bookingForm.get('email')?.touched && bookingForm.get('email')?.invalid" 
-               class="text-red-500 text-sm mt-1">
-            {{ 'booking.form.errors.emailInvalid' | translate }}
-          </div>
+          >
+            <option value="" disabled>{{ 'booking.form.selectService' | translate }}</option>
+            <option *ngFor="let service of services" [value]="service.name">
+              {{ service.name | translate }}
+            </option>
+          </select>
         </div>
 
         <!-- Phone Field -->
@@ -146,21 +146,26 @@ export class BookingFormComponent implements OnInit {
   isSubmitting = false;
   submitSuccess = false;
   submitError = false;
+  services: PhotoService[] = [];
 
   constructor(
     private fb: FormBuilder,
     private bookingService: BookingService,
-    private router: Router
+    private router: Router,
+    private photoService: PhotoServiceService,
   ) {
     this.bookingForm = this.fb.group({
       customerName: ['', [Validators.required, Validators.minLength(2)]],
-      email: [''],
       phone: ['', [Validators.required, Validators.pattern('^[0-9]{10}$')]],
       date: ['', [Validators.required]],
+      serviceType: ['', Validators.required],
       message: [''],
-      serviceType: [''],
       packageName: [''],
       packagePrice: [0]
+    });
+
+    this.photoService.getServices().subscribe(services => {
+      this.services = services;
     });
   }
 
