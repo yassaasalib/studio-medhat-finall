@@ -69,12 +69,12 @@ import { CloudComponent } from './cloud.component';
 })
 export class ScrollGalleryComponent {
   row1Images = [
-    'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1554080353-a576cf803bda?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1505968409348-bd000797c92e?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?auto=format&fit=crop&w=800&q=80'
+    '../../../assets/galary/DSC_0259.jpg',
+    '../../../assets/galary/DSC_1482.jpg',
+    '../../../assets/galary/DSC_1505-2.jpg',
+    '../../../assets/galary/DSC_1818.jpg',
+    '../../../assets/galary/DSC_2329.jpg',
+    '../../../assets/galary/DSC_3006.jpg'
   ];
 
   row2Images = [
