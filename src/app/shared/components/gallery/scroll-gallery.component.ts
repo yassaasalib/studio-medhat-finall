@@ -69,38 +69,58 @@ import { CloudComponent } from './cloud.component';
 })
 export class ScrollGalleryComponent {
   row1Images = [
-    '../../../assets/galary/DSC_0259.jpg',
-    '../../../assets/galary/DSC_1482.jpg',
-    '../../../assets/galary/DSC_1505-2.jpg',
-    '../../../assets/galary/DSC_1818.jpg',
-    '../../../assets/galary/DSC_2329.jpg',
-    '../../../assets/galary/DSC_3006.jpg'
+    '../../../assets/galary/christmas-1.jpg',
+    '../../../assets/galary/christmas-2.jpg',
+    '../../../assets/galary//christmas-3.jpg',
+    '../../../assets/galary//christmas-4.jpg',
+    '../../../assets/galary//christmas-5.jpg',
+    '../../../assets/galary//christmas-6.jpg'
   ];
 
   row2Images = [
-    'https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1534361960057-19889db9621e?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80'
+    '../../../assets/galary/adultBirthday-1.jpg',
+    '../../../assets/galary/adultBirthday-2.jpg',
+    '../../../assets/galary/adultBirthday-3.jpg',
+    '../../../assets/galary/adultBirthday-4.jpg',
+    '../../../assets/galary/adultBirthday-5.jpg',
+    '../../../assets/galary/adultBirthday-6.jpg',
+    '../../../assets/galary/adultBirthday-7.jpg',
+    '../../../assets/galary/adultBirthday-8.jpg',
+    '../../../assets/galary/adultBirthday-9.jpg',
+    '../../../assets/galary/adultBirthday-10.jpg',
+    '../../../assets/galary/adultBirthday-11.jpg',
+    '../../../assets/galary/adultBirthday-12.jpg',
+    '../../../assets/galary/adultBirthday-13.jpg',
+    '../../../assets/galary/adultBirthday-14.jpg',
   ];
 
   row3Images = [
-    'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1509523741335-b95c2ff9c9a1?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'
+    '../../../assets/galary/kids-1.jpg',
+    '../../../assets/galary/kids-2.jpg',
+    '../../../assets/galary/kids-3.jpg',
+    '../../../assets/galary/kids-4.jpg',
+    '../../../assets/galary/kids-5.jpg',
+    '../../../assets/galary/kids-6.jpg',
+    '../../../assets/galary/kids-7.jpg',
+    '../../../assets/galary/kids-8.jpg',
+    '../../../assets/galary/kids-9.jpg',
+    '../../../assets/galary/kids-10.jpg',
+    '../../../assets/galary/kids-11.jpg',
+    '../../../assets/galary/kids-12.jpg',
   ];
 
   row4Images = [
-    'https://images.unsplash.com/photo-1506260408121-e353d10b87c7?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1542224566-6e85f2e6772f?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1518021964703-4b2030f03085?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1511207538754-e8555f2bc187?auto=format&fit=crop&w=800&q=80',
-    'https://images.unsplash.com/photo-1505159940484-eb2b9f2588e2?auto=format&fit=crop&w=800&q=80'
+    '../../../assets/galary/marriage-1.jpg',
+    '../../../assets/galary/marriage-2.jpg',
+    '../../../assets/galary/marriage-3.jpg',
+    '../../../assets/galary/marriage-4.jpg',
+    '../../../assets/galary/marriage-5.jpg',
+    '../../../assets/galary/marriage-6.jpg',
+    '../../../assets/galary/marriage-7.jpg',
+    '../../../assets/galary/marriage-8.jpg',
+    '../../../assets/galary/marriage-9.jpg',
+    '../../../assets/galary/marriage-10.jpg',
+    '../../../assets/galary/marriage-11.jpg',
+    '../../../assets/galary/marriage-12.jpg',
   ];
 }

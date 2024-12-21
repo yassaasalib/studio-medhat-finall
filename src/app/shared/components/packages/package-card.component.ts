@@ -23,7 +23,7 @@ import { PhotoService } from '../../types/services.interface';
       <!-- Package header -->
       <div class="text-center mb-6">
         <h3 class="text-xl font-medium text-white mb-2">
-          {{ package?.name ? ('packages.' + package.name.toUpperCase() + '.name' | translate) : '' }}
+          {{ package.name ? ('packages.' + package.name.toUpperCase() + '.name' | translate) : '' }}
         </h3>
         <div class="text-3xl font-light text-orange-500">
           {{ package.price | currency:'EGP':'symbol':'1.0-0' }}
