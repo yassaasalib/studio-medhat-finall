@@ -23,7 +23,7 @@ import { PhotoService } from '../../types/services.interface';
       <!-- Package header -->
       <div class="text-center mb-6">
         <h3 class="text-xl font-medium text-white mb-2">
-          {{ ('packages.' + package.name.toUpperCase() + '.name') | translate }}
+          {{ package?.name ? ('packages.' + package.name.toUpperCase() + '.name' | translate) : '' }}
         </h3>
         <div class="text-3xl font-light text-orange-500">
           {{ package.price | currency:'EGP':'symbol':'1.0-0' }}
@@ -67,7 +67,7 @@ import { PhotoService } from '../../types/services.interface';
         <!-- Modal Header -->
         <div class="sticky top-0 w-full bg-black/80 backdrop-blur-sm p-4 flex justify-between items-center border-b border-white/10">
           <h2 class="text-xl text-white font-medium">
-          {{ ('packages.' + package.name.toUpperCase() + '.name') | translate }}
+            {{ package.name ? ('packages.' + package.name.toUpperCase() + '.name' | translate) : '' }}
           </h2>
           <button
             (click)="showBookingForm = false"

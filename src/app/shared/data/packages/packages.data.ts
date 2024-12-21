@@ -6,7 +6,7 @@ export const packagesData: PackageGroup[] = [
     packages: [
       {
         name: "PREMIUM",
-        price: 2500,
+        price: 1800,
         featureKeys: [
           "packages.features.family.digitalPhotos30",
           "packages.features.family.twoHourSession",
@@ -16,7 +16,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "DELUXE",
-        price: 1800,
+        price: 1200,
         featureKeys: [
           "packages.features.family.digitalPhotos25",
           "packages.features.family.oneAndHalfHourSession",
@@ -25,7 +25,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "CLASSIC",
-        price: 1200,
+        price: 900,
         featureKeys: [
           "packages.features.family.digitalPhotos20",
           "packages.features.family.oneHourSession",
@@ -33,7 +33,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "ESSENTIAL",
-        price: 900,
+        price: 700,
         featureKeys: [
           "packages.features.family.digitalPhotos15",
           "packages.features.family.fortyFiveMinuteSession",
@@ -41,7 +41,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "BASIC",
-        price: 600,
+        price: 400,
         featureKeys: [
           "packages.features.family.digitalPhotos10",
           "packages.features.family.thirtyMinuteSession",
@@ -54,7 +54,7 @@ export const packagesData: PackageGroup[] = [
     packages: [
       {
         name: "PREMIUM",
-        price: 2000,
+        price: 1100,
         featureKeys: [
           "packages.features.adultBirthday.digitalPhotos200",
           "packages.features.adultBirthday.photoBooth",
@@ -65,7 +65,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "DELUXE",
-        price: 1500,
+        price: 900,
         featureKeys: [
           "packages.features.adultBirthday.digitalPhotos150",
           "packages.features.adultBirthday.photoBooth",
@@ -74,7 +74,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "CLASSIC",
-        price: 1000,
+        price: 700,
         featureKeys: [
           "packages.features.adultBirthday.digitalPhotos100",
           "packages.features.adultBirthday.twoHourCoverage",
@@ -82,7 +82,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "ESSENTIAL",
-        price: 800,
+        price: 500,
         featureKeys: [
           "packages.features.adultBirthday.digitalPhotos75",
           "packages.features.adultBirthday.oneAndHalfHourCoverage",
@@ -90,7 +90,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "BASIC",
-        price: 500,
+        price: 300,
         featureKeys: [
           "packages.features.adultBirthday.digitalPhotos50",
           "packages.features.adultBirthday.oneAndHalfHourCoverage",
@@ -116,7 +116,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "DELUXE",
-        price: 1400,
+        price: 1200,
         featureKeys: [
           "packages.features.childBirthday.digitalPhotos120",
           "packages.features.childBirthday.twoAndHalfHourCoverage",
@@ -126,7 +126,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "CLASSIC",
-        price: 1000,
+        price: 900,
         featureKeys: [
           "packages.features.childBirthday.digitalPhotos90",
           "packages.features.childBirthday.twoHourCoverage",
@@ -136,7 +136,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "ESSENTIAL",
-        price: 800,
+        price: 700,
         featureKeys: [
           "packages.features.childBirthday.digitalPhotos60",
           "packages.features.childBirthday.oneAndHalfHourCoverage",
@@ -145,7 +145,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "BASIC",
-        price: 500,
+        price: 400,
         featureKeys: [
           "packages.features.childBirthday.digitalPhotos40",
           "packages.features.childBirthday.oneHourCoverage",
@@ -159,7 +159,7 @@ export const packagesData: PackageGroup[] = [
     packages: [
       {
         name: "PREMIUM",
-        price: 2200,
+        price: 1800,
         featureKeys: [
           "packages.features.maternity.digitalPhotos25",
           "packages.features.maternity.twoHourSession",
@@ -169,7 +169,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "DELUXE",
-        price: 1800,
+        price: 1200,
         featureKeys: [
           "packages.features.maternity.digitalPhotos20",
           "packages.features.maternity.oneAndHalfHourSession",
@@ -177,7 +177,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "CLASSIC",
-        price: 1400,
+        price: 900,
         featureKeys: [
           "packages.features.maternity.digitalPhotos15",
           "packages.features.maternity.oneHourSession",
@@ -185,7 +185,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "ESSENTIAL",
-        price: 1000,
+        price: 700,
         featureKeys: [
           "packages.features.maternity.digitalPhotos10",
           "packages.features.maternity.fortyFiveMinuteSession",
@@ -193,7 +193,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         name: "BASIC",
-        price: 800,
+        price: 400,
         featureKeys: [
           "packages.features.maternity.digitalPhotos8",
           "packages.features.maternity.thirtyMinuteSession",
@@ -255,7 +255,7 @@ export const packagesData: PackageGroup[] = [
     "packages": [
       {
         "name": "PREMIUM",
-        "price": 4000,
+        "price": 2100,
         "featureKeys": [
           "packages.features.engagement.digitalPhotos50",
           "packages.features.engagement.fiveHourSession",
@@ -265,7 +265,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         "name": "DELUXE",
-        "price": 3200,
+        "price": 1500,
         "featureKeys": [
           "packages.features.engagement.digitalPhotos40",
           "packages.features.engagement.fourHourSession",
@@ -274,7 +274,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         "name": "CLASSIC",
-        "price": 2700,
+        "price": 1200,
         "featureKeys": [
           "packages.features.engagement.digitalPhotos30",
           "packages.features.engagement.threeHourSession",
@@ -282,17 +282,8 @@ export const packagesData: PackageGroup[] = [
         ]
       },
       {
-        "name": "ESSENTIAL",
-        "price": 2200,
-        "featureKeys": [
-          "packages.features.engagement.digitalPhotos20",
-          "packages.features.engagement.twoHourSession",
-          "packages.features.engagement.standardAlbum"
-        ]
-      },
-      {
         "name": "BASIC",
-        "price": 1800,
+        "price": 800,
         "featureKeys": [
           "packages.features.engagement.digitalPhotos15",
           "packages.features.engagement.oneAndHalfHourSession"
@@ -305,7 +296,7 @@ export const packagesData: PackageGroup[] = [
     "packages": [
       {
         "name": "PREMIUM",
-        "price": 5000,
+        "price": 2100,
         "featureKeys": [
           "packages.features.marriage.digitalPhotos80",
           "packages.features.marriage.fullDayCoverage",
@@ -315,7 +306,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         "name": "DELUXE",
-        "price": 4200,
+        "price": 1500,
         "featureKeys": [
           "packages.features.marriage.digitalPhotos60",
           "packages.features.marriage.sixHourCoverage",
@@ -324,7 +315,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         "name": "CLASSIC",
-        "price": 3500,
+        "price": 1200,
         "featureKeys": [
           "packages.features.marriage.digitalPhotos40",
           "packages.features.marriage.fourHourCoverage",
@@ -332,17 +323,8 @@ export const packagesData: PackageGroup[] = [
         ]
       },
       {
-        "name": "ESSENTIAL",
-        "price": 3000,
-        "featureKeys": [
-          "packages.features.marriage.digitalPhotos30",
-          "packages.features.marriage.threeHourCoverage",
-          "packages.features.marriage.standardAlbum"
-        ]
-      },
-      {
         "name": "BASIC",
-        "price": 2500,
+        "price": 800,
         "featureKeys": [
           "packages.features.marriage.digitalPhotos20",
           "packages.features.marriage.twoHourCoverage"
@@ -355,7 +337,7 @@ export const packagesData: PackageGroup[] = [
     "packages": [
       {
         "name": "PREMIUM",
-        "price": 3000,
+        "price": 1800,
         "featureKeys": [
           "packages.features.graduation.digitalPhotos50",
           "packages.features.graduation.fourHourSession",
@@ -365,7 +347,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         "name": "DELUXE",
-        "price": 2500,
+        "price": 1200,
         "featureKeys": [
           "packages.features.graduation.digitalPhotos40",
           "packages.features.graduation.threeHourSession",
@@ -374,7 +356,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         "name": "CLASSIC",
-        "price": 2000,
+        "price": 900,
         "featureKeys": [
           "packages.features.graduation.digitalPhotos30",
           "packages.features.graduation.twoHourSession",
@@ -383,7 +365,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         "name": "ESSENTIAL",
-        "price": 1800,
+        "price": 700,
         "featureKeys": [
           "packages.features.graduation.digitalPhotos20",
           "packages.features.graduation.oneAndHalfHourSession"
@@ -391,7 +373,7 @@ export const packagesData: PackageGroup[] = [
       },
       {
         "name": "BASIC",
-        "price": 1500,
+        "price": 400,
         "featureKeys": [
           "packages.features.graduation.digitalPhotos15",
           "packages.features.graduation.oneHourSession"
@@ -403,46 +385,104 @@ export const packagesData: PackageGroup[] = [
     "serviceId": 9, // Printing Services
     "packages": [
       {
-        "name": "PREMIUM",
-        "price": 2000,
+        "name": "",
+        "price": 10,
         "featureKeys": [
-          "packages.features.printing.albumLarge",
-          "packages.features.printing.highQualityPrints50",
-          "packages.features.printing.deliveryIncluded"
-        ],
-        "isPopular": true
-      },
-      {
-        "name": "DELUXE",
-        "price": 1500,
-        "featureKeys": [
-          "packages.features.printing.albumMedium",
-          "packages.features.printing.highQualityPrints30",
-          "packages.features.printing.deliveryIncluded"
+          "packages.features.printing.highQualityPrints10"
         ]
       },
       {
-        "name": "CLASSIC",
-        "price": 1200,
+        "name": "",
+        "price": 15,
         "featureKeys": [
-          "packages.features.printing.albumSmall",
-          "packages.features.printing.highQualityPrints20"
+          "packages.features.printing.highQualityPrints10"
         ]
       },
       {
-        "name": "ESSENTIAL",
-        "price": 1000,
+        "name": "",
+        "price": 20,
         "featureKeys": [
-          "packages.features.printing.highQualityPrints15"
+          "packages.features.printing.highQualityPrints10"
         ]
       },
       {
-        "name": "BASIC",
-        "price": 800,
+        "name": "",
+        "price": 65,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 75,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 80,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 85,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 120,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 150,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 200,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 300,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 400,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 450,
+        "featureKeys": [
+          "packages.features.printing.highQualityPrints10"
+        ]
+      },
+      {
+        "name": "",
+        "price": 500,
         "featureKeys": [
           "packages.features.printing.highQualityPrints10"
         ]
       }
     ]
+
   },
 ];

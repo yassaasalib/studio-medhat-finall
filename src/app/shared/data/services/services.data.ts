@@ -7,7 +7,7 @@ export const servicesData: PhotoService[] = [
     description: "services.categories.family.description",
     extendedDescription: "services.categories.family.extendedDescription",
     duration: "2-3 ساعات",
-    basePrice: 500,
+    basePrice: 400,
     imageUrl: "../../../../assets/services/Family.jpg",
     inclusions: [
       "وضعيات عائلية متعددة",
